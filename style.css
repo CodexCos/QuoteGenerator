@@ -1,0 +1,41 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    overflow: hidden;
+    padding: 1rem 3rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+
+.fontSize {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.fontSize > button {
+    font-size: 2rem;
+}
+
+select, button {
+    font-size: 1rem;
+    background-color: #fee6e3;
+    border:2px solid #111;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #111;
+}
+
+.quotes {
+    font-size: 16px;
+}
