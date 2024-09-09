@@ -1,0 +1,2 @@
+# QuoteGenerator
+Simple Quote Generator
